@@ -1,6 +1,6 @@
 # advert_manager
 
-# Cryptocurrency Exchange App
+# Advert Manager App
 
 This is a Django Rest Framework (DRF) app that allows users to add comments to advertisements but there is a restriction that each user can only comment on an advertisment once.
 What's more users can edit and delete their own comments and also all users can see all advertisements and comments without being authenticated
@@ -10,7 +10,7 @@ It uses PostgreSQL as its database backend to store user and transaction data.
 ## key features:
 
 - User authentication and registration
-- Getting the list of all adverts and ther associated comments
+- Getting the list of all adverts and their associated comments
 - Insert/ update/ delete comments on adverts
 
 ## Requirements:

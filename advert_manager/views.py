@@ -30,7 +30,7 @@ class CommentView(APIView):
 
     def post(self, request):
         try:
-            pdb.set_trace()
+            # pdb.set_trace()
             advert_id = request.data.get("advert_id")
             text = request.data.get("text")
             user = request.user
@@ -50,7 +50,7 @@ class CommentView(APIView):
             return Response(ex, status=status.HTTP_400_BAD_REQUEST)
 
     def delete(self, request):
-        pdb.set_trace()
+        # pdb.set_trace()
         user = request.user
         comment_id = request.data.get("comment_id")
 
